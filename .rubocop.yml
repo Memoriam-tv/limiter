@@ -5,5 +5,9 @@ require:
   - rubocop-minitest
   - rubocop-rake
 
+Naming/FileName:
+  Exclude:
+    - lib/ruby-limiter.rb
+
 AllCops:
   TargetRubyVersion: 2.7

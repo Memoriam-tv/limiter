@@ -50,12 +50,12 @@ module Limiter
         @object.tick
       end
 
-      assert_equal COUNT, @object.ticks
+      assert_equal(COUNT, @object.ticks)
     end
 
     def test_arguments_are_passed
-      @object.tick 123
-      assert_equal 123, @object.ticks
+      @object.tick(123)
+      assert_equal(123, @object.ticks)
     end
 
     def test_default_keyword_arguments_are_passed

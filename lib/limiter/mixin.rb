@@ -19,7 +19,7 @@ module Limiter
         end
       end
 
-      prepend mixin
+      prepend(mixin)
     end
   end
 end
